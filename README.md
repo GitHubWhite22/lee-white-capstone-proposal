@@ -64,7 +64,7 @@ THE LANDING PAGE WILL INCLUDE THE FOLLOWING:
 *Please refer to the attached screenshots of the sitemap. 
 
 #### Home Page
-![](home.png)
+![](HomePage.png)
 
 ### Data
 
@@ -128,20 +128,16 @@ Link to external API's will not be integral to the functioning of this project, 
 
 User login would be nice as an add on.
 
-SORTED ITEMS PAGE:
-    -if site visitors use the sidebar to sort items, they will then be sent to the sorted items page, which will screen out items that don't meet the criteria they selected.
-
-#### Sorted Items Page
-![](sorted-items.png)
-
-SINGLE ITEM PAGE:
+#### Single Item Page
+![](SingleItemPage.png)    
+    
+    SINGLE ITEM PAGE:
     -clicking on a gallery item will lead to an individual item page, where more photos of the item will be available, alongside a more specific breakdown of required tools and optional fibre choices.
 
-#### Single Item Page
-![](item.png)
+#### Shopping Cart Page
+![](ShoppingCart.png)
 
 SHOPPING CART PAGE:
     -while moving through the website, the user will have the option to add to or delete items from their cart.  When they select the shopping cart option from the header, they will be taken to the shopping cart page, where they will be able to review the items in their cart before deciding whether or not to make a purchase.
 
-#### Shopping Cart Page
-![](cart.png)
+    
