@@ -17,12 +17,19 @@ Any skill level of hand knitter will be able to select and purchase a pattern fr
 ### Features
 
 -Site visitors will be able to sort the patterns to suit their skill level, choosing from beginner, easy, intermediate or advanced level patterns.
+
 -Site visitors will be able to sort the patterns according to which season they are knitting for, the choices being winter, fall/spring or summer.
+
 -Site visitors will be able to sort the patterns according to type of fibre, a very personal choice that can make or break one's enjoyment of the production process. They will be able to choose between merino, alpaca, cotton or silk.
+
 -Site visitors will be able to navigate from links on the header to social media accounts linked to the page, where they can see more photos of the knitwear.
+
 -Site visitors will be able to view available patterns in a gallery on the landing page that features a product photo, price, materials and skill level needed for production.
+
 -Site visitors will be able to contact the site owner through contact details, most likely an email address, posted on the bottom of the landing page.
+
 -Site visitors will be able to add products to a shopping cart from the gallery or from a sorted list, then navigate to the SHOPPING CART page to review their selections and total before purchasing.
+
 -Site visitors will receive a pdf of the patterns they have purchased once they have paid for the items in their cart.
 
 
@@ -59,15 +66,6 @@ THE LANDING PAGE WILL INCLUDE THE FOLLOWING:
 #### Home Page
 ![](home.png)
 
-#### Sorted Items Page
-![](sorted-items.png)
-
-#### Single Item Page
-![](item.png)
-
-#### Shopping Cart Page
-![](cart.png)
-
 ### Data
 
 Data will be stored initially in json files, with the potential to be changed to data tables that would be served through migrations and seeds to the client side using knex and express, if time allows.
@@ -80,7 +78,7 @@ POST HTTP request methods will take input from the radio buttons and calculate w
 
 ### Auth
 
-Login functionality will not be part of the scope of this project.
+Login functionality will not be part of the scope of this project, though it may be included in nice-to-haves.
 
 ## Roadmap
 
@@ -128,12 +126,22 @@ The following will all exist on the Homepage:
 
 Link to external API's will not be integral to the functioning of this project, but it would be nice in future to have such links so that site visitors could access external libraries containing instructions for specific knit stiches, or videos demonstrating skills needed to complete the items they've purchased.  Of course, all of this information will be provided on the pattern they've purchased, but it can be nice to have access to more than one point of reference, especially for those new to hand knitting.
 
+User login would be nice as an add on.
 
 SORTED ITEMS PAGE:
     -if site visitors use the sidebar to sort items, they will then be sent to the sorted items page, which will screen out items that don't meet the criteria they selected.
 
+#### Sorted Items Page
+![](sorted-items.png)
+
 SINGLE ITEM PAGE:
     -clicking on a gallery item will lead to an individual item page, where more photos of the item will be available, alongside a more specific breakdown of required tools and optional fibre choices.
 
+#### Single Item Page
+![](item.png)
+
 SHOPPING CART PAGE:
     -while moving through the website, the user will have the option to add to or delete items from their cart.  When they select the shopping cart option from the header, they will be taken to the shopping cart page, where they will be able to review the items in their cart before deciding whether or not to make a purchase.
+
+#### Shopping Cart Page
+![](cart.png)
